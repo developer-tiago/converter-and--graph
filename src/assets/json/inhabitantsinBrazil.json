@@ -1,0 +1,54 @@
+[
+  {
+    "region": "Norte",
+    "states": [
+      { "name": "Acre", "population": 906876 },
+      { "name": "Amapá", "population": 861773 },
+      { "name": "Amazonas", "population": 4280730 },
+      { "name": "Pará", "population": 8777124 },
+      { "name": "Rondônia", "population": 1805866 },
+      { "name": "Roraima", "population": 652713 },
+      { "name": "Tocantins", "population": 1590248 }
+    ]
+  },
+  {
+    "region": "Nordeste",
+    "states": [
+      { "name": "Alagoas", "population": 3351543 },
+      { "name": "Bahia", "population": 14812617 },
+      { "name": "Ceará", "population": 9240580 },
+      { "name": "Maranhão", "population": 7114598 },
+      { "name": "Paraíba", "population": 4059905 },
+      { "name": "Pernambuco", "population": 9616621 },
+      { "name": "Piauí", "population": 3281480 },
+      { "name": "Rio Grande do Norte", "population": 3560903 },
+      { "name": "Sergipe", "population": 2318822 }
+    ]
+  },
+  {
+    "region": "Centro-Oeste",
+    "states": [
+      { "name": "Distrito Federal", "population": 3094325 },
+      { "name": "Goiás", "population": 7206589 },
+      { "name": "Mato Grosso", "population": 3671401 },
+      { "name": "Mato Grosso do Sul", "population": 2839181 }
+    ]
+  },
+  {
+    "region": "Sudeste",
+    "states": [
+      { "name": "Espírito Santo", "population": 4108508 },
+      { "name": "Minas Gerais", "population": 21411923 },
+      { "name": "Rio de Janeiro", "population": 17463349 },
+      { "name": "São Paulo", "population": 46289333 }
+    ]
+  },
+  {
+    "region": "Sul",
+    "states": [
+      { "name": "Paraná", "population": 11687804 },
+      { "name": "Rio Grande do Sul", "population": 11422973 },
+      { "name": "Santa Catarina", "population": 7335587 }
+    ]
+  }
+]
