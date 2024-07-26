@@ -1,5 +1,8 @@
 <template>
-  <main v-if="brasilHabitants.length > 0" class="container d-flex flex-column align-items-center py-3">
+  <main
+    v-if="brasilHabitants.length > 0"
+    class="container d-flex flex-column align-items-center py-3"
+  >
     <h1 class="text-center">TREEMAP</h1>
 
     <div class="graphic-treemap">
@@ -101,7 +104,6 @@ export default {
 
         region.states.forEach((state) => {
           region.populationRegion += state.population
-          region.states.sort((a, b) => b.population - a.population)
           brasilPopulation += state.population
         })
       })
@@ -115,7 +117,16 @@ export default {
         })
       })
 
+      this.organizeData(this.brasil)
+
       this.brasilHabitants = this.brasil
+    },
+
+    organizeData(data) {
+      data.sort((a, b) => b.populationRegion - a.populationRegion)
+      data.forEach((region) => {
+        region.states.sort((a, b) => b.population - a.population)
+      })
     },
 
     calHeight(percentage) {
@@ -169,7 +180,7 @@ export default {
 
 <style lang="scss" scoped>
 .graphic-treemap {
-  background-color: #FFF;
+  background-color: #fff;
   width: 900px;
   height: 500px;
 }

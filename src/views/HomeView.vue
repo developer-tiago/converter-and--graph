@@ -1,5 +1,5 @@
 <template>
-  <main class="container d-flex flex-wrap justify-content-center">
+  <main class="container d-flex flex-wrap justify-content-center pt-5">
     <div
       @click="openPage('/number-convesion')"
       class="card align-items-center pt-4 col-6 col-lg-6 col-xl-6"
@@ -36,15 +36,16 @@ export default {
   height: 270px;
   border-radius: 40px;
   box-shadow:
-    5px 5px 30px 7px rgba(0, 0, 0, 0.25),
-    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    5px 5px 30px 7px rgba(61, 61, 61, 0.25),
+    -5px -5px 30px 7px rgba(61, 61, 61, 0.22);
   cursor: pointer;
   transition: 0.4s;
+  background-color: rgb(255, 230, 230);
 
   &:hover {
     transform: scale(0.9, 0.9);
     box-shadow:
-      5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+      5px 5px 30px 15px rgba(255, 64, 64, 0.25),
       -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
   }
 
